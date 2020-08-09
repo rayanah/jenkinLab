@@ -6,7 +6,7 @@ pipeline{
  stages {
   stage('BuildStaging') {
    steps {
-     echo ‘creating infra for staging’ 
+     echo 'creating infra for staging' 
  }
 }
  stage('DeployStaging'){
